@@ -1,0 +1,37 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background: #222;
+  z-index: 1000;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  min-height: 70px;
+}
+
+.navbar-list {
+  display: flex;
+  justify-content: right;
+  align-items: centre;
+  margin: 0 auto;
+  padding: 1rem 0;
+  list-style: none;
+  max-width: 1500px; /* Optional: limit max width for large screens */
+  width: 100%; 
+}
+
+.navbar-list li {
+  margin: 0 1.5rem;
+}
+
+.navbar-list a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: color 0.2s;
+}
+
+.navbar-list a:hover,
+.navbar-list a.active {
+  color: #00bcd4;
+}
