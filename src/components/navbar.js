@@ -14,7 +14,6 @@ const Navbar = () => {
       <ul className="navbar-list">
         <li><Link href="/">Home</Link></li>
         <li><Link href="/about">About</Link></li>
-        <li><Link href="/certificate">Certificate</Link></li>
         <li><Link href="/education">Education</Link></li>
         <li><Link href="/skills">Skills</Link></li>
         <li><Link href="/resume">Resume</Link></li>
