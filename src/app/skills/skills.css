@@ -51,6 +51,9 @@
   margin-bottom: 1rem;
   font-weight: 700;
   letter-spacing: 0.01em;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
 }
 
 .skills-card ul {
@@ -64,6 +67,9 @@
   color: #2d3e50;
   position: relative;
   padding-left: 1.2em;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
 }
 
 .skills-card li::before {
@@ -73,6 +79,13 @@
   left: 0;
   font-size: 1.2em;
   line-height: 1;
+}
+
+/* Icon styles for better alignment */
+.skills-card svg {
+  vertical-align: middle;
+  margin-right: 0.4em;
+  font-size: 1.2em;
 }
 
 /* Dark mode support */

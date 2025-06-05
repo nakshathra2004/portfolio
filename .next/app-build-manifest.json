@@ -12,17 +12,16 @@
       "static/css/app/page.css",
       "static/chunks/app/page.js"
     ],
-    "/resume/page": [
+    "/about/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/resume/page.css",
-      "static/chunks/app/resume/page.js"
+      "static/css/app/about/page.css",
+      "static/chunks/app/about/page.js"
     ],
-    "/skills/page": [
+    "/_not-found/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/skills/page.css",
-      "static/chunks/app/skills/page.js"
+      "static/chunks/app/_not-found/page.js"
     ]
   }
 }
